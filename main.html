@@ -8,28 +8,64 @@
 	</head>
 
 	<body>
+		<style>
+			h1{
+				font-size:45px;
+				text-align:center;
+				border-bottom:1px solid gray;
+				margin:0px;
+				padding:20px;
+			}
+			ol{
+				border-right : 1px solid gray;
+				width:100px;
+				margin:0px;
+				padding:20px;
+			}			
+			body{
+				margin:0px;
+			}
+			#grid{
+				display: grid;
+				grid-template-columns: 150px 1fr;
+			}
+			#grid ol{
+				border-right: 1px solid gray;
+				width: 100px;
+				margin: 0;
+				padding: 20px;
+				padding-left:33px;
+			}
+			#article{
+				padding-left: 25px;
+			}
+		</style>	
+	
 		<h1>
 			네 시작은 미약하였으나 끝은 창대하리라.
-		</h1>
+		</h1>		
 		
-		<h2>
-			웹툰
-		</h2>
-
-		<ol>
-			<li><a href="https://jeongsangjun.github.io/WEB1/201124.jpg">20201124</a></li>			
-		</ol>
-		
-		<h2>
-			습작
-		</h2>
-		
-		<ol>
-			<li><a href="https://jeongsangjun.github.io/WEB1/201120.png">20201120</a></li>
-			<li><a href="https://jeongsangjun.github.io/WEB1/201121_1.jpg">20201121_1</a></li>
-			<li><a href="https://jeongsangjun.github.io/WEB1/201121_2.jpg">20201121_2</a></li>
-			<li><a href="https://jeongsangjun.github.io/WEB1/201124_1.jpg">20201124</a></li>
+		<div id="grid">		
+			<ol>
+				<li><a href="webtoon.html">웹툰</a></li>
+				<li><a href="drawingStudy.html">습작</a></li>
+			</ol>	
 			
-		</ol>
+			<div id="article">
+				<h2>
+					오늘은 일요일. 내일은 월요일. 회사 가기 싫다. 왜 로또는 안 맞는 것인가. ㅅㅂ.
+					<p>
+					p가 뭐지? p효과다. p태그는 하나의 문단을 만들때 사용한다. 하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단
+					하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단하나의 문단 하나의 문단
+					하나의 문단 하나의 문단하나의 문단 하나의 문단
+					하나의 문단 하나의 문단하나의 문단 하나의 문단
+					하나의 문단 하나의 문단하나의 문단 하나의 문단
+					하나의 문단 하나의 문단하나의 문단 하나의 문단
+					하나의 문단 하나의 문단
+					줄바꿈을 해도 계속 이어서 붙는구나
+					</p>
+				</h2>
+			</div>
+		</div>
 	</body>
 </html>

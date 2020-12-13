@@ -1,14 +1,32 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>WebToon</title>
-		<meta charset="utf-8">
+		<title>
+			HopperWebToon
+		</title>
+    <meta charset="utf-8"></meta>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="color.js"></script>
 	</head>
-	
+
 	<body>
-		<h1><a href="main.html">뒤로가기</a></h1>
-		<ol>
-			<li><a href="https://jeongsangjun.github.io/WEB1/201124.jpg">20201124</a></li>
-		</ol>
+		<h1>
+			네 시작은 미약하였으나 끝은 창대하리라.
+		</h1>
+
+		<input type="button" name="" value="night" onclick="nightDayHandler(this)">
+
+		<div id="grid">
+			<ol id="contentsList">
+				<li><a href="webtoon.html">웹툰</a></li>
+				<li><a href="drawingStudy.html">습작</a></li>
+			</ol>
+			<div id="article">
+				<ul>
+					<li><a href="https://jeongsangjun.github.io/WEB1/201124.jpg">20201124</a></li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>

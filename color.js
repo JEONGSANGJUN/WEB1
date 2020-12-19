@@ -31,6 +31,7 @@ var links =
 function nightDayHandler(self)
 {
   var target = document.querySelector('body');
+
   if(self.value == 'night')
   {
     body.setBackgroundColor('black');
